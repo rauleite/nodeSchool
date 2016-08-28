@@ -1,15 +1,13 @@
 'use strict'
 
-function attachTitle(arg) {
-    return 'DR. ' + arg
+function attachTitle (arg) {
+  return 'DR. ' + arg
 }
 
-let execute = function (fulfill, reject) {
-    fulfill('MANHATTAN');
-}
-
-const promise = new Promise(execute);
+const promise = new Promise(function (resolve, reject) {
+  resolve('MANHATTAN')
+})
 
 promise
-    .then(attachTitle)
-    .then(console.log)
+  .then(attachTitle)
+  .then(console.log)

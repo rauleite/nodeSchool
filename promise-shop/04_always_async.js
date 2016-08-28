@@ -1,8 +1,7 @@
 'use strict'
 
-const promise = new Promise(function(fulfill, reject) {
-    fulfill('SECOND')
-
+const promise = new Promise(function (resolve, reject) {
+  resolve('SECOND')
 })
 
 promise.then(console.log)
