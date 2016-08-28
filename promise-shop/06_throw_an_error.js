@@ -12,4 +12,4 @@ function parsePromised() {
     })
 }
 
-parsePromised().then(null, console.log)
+parsePromised().then(null, console.log) 
