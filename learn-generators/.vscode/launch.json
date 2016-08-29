@@ -5,7 +5,7 @@
       "name": "Launch",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceRoot}/06-look-sync-do-async-tests.js",
+      "program": "${workspaceRoot}/07-look-sync-make-promise.js",
       "stopOnEntry": false,
       "args": [],
       "cwd": "${workspaceRoot}",
